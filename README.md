@@ -32,7 +32,7 @@ sfdx force:auth:web:login -a SandboxAlias -r https://test.salesforce.com
 sfdx force:org:list
 ```
 
-### Create a Project
+### [Create a Project](force_project_create.md)
 ```
 sfdx force:project:create -n MyApp
 ```
