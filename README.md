@@ -7,27 +7,27 @@
 sfdx force:doc:commands:display
 ```
 
-### Set DevHub Org
+### [Set DevHub Org](force_config_set.md)
 ```
 sfdx force:config:set defaultusername=mdn@dx.com
 ```
 
-### Login to DevHub Org
+### [Login to DevHub Org](force_auth_web_login.md)
 ```
 sfdx force:auth:web:login -d -a DevHub
 ```
 
-### Open DevHub Org
+### [Open DevHub Org](force_org_open.md)
 ```
 sfdx force:org:open -u DevHub
 ```
 
-### Login to Sandbox
+### [Login to Sandbox](force_auth_web_login.md)
 ```
 sfdx force:auth:web:login -a SandboxAlias -r https://test.salesforce.com
 ```
 
-### List Orgs
+### [List Orgs](force_org_list.md)
 ```
 sfdx force:org:list
 ```
@@ -37,18 +37,18 @@ sfdx force:org:list
 sfdx force:project:create -n MyApp
 ```
 
-### Create a Scratch Org
+### [Create a Scratch Org](force_org_create.md)
 ```
 sfdx force:org:create -s -f config/project-scratch-def.json
 ```
 
-### Push/Pull Source
+### [Push](force_org_push.md)/[Pull](force_org_pull.md) Source
 ```
 sfdx force:source:push
 sfdx force:source:pull
 ```
 
-### Data Export
+### [Data Export](force_data_tree_export.md)
 ```
 sfdx force:data:tree:export -q "select ..." -d ./data
 ```
