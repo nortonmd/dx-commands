@@ -1,3 +1,6 @@
+# sfdx force:auth:web:login
+
+```
 Usage: sfdx force:auth:web:login [-i <string>] [-r <url>] [-d] [-s] [-a <string>] [--json] [--loglevel <string>]
 
 authorize an org using the web login flow
@@ -16,4 +19,4 @@ Examples:
    $ sfdx force:auth:web:login -a TestOrg1
    $ sfdx force:auth:web:login -i <oauth client id>
    $ sfdx force:auth:web:login -r https://test.salesforce.com
-
+```
