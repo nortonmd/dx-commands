@@ -1,3 +1,6 @@
+# sfdx force:org:open
+
+```
 Usage: sfdx force:org:open [-p <string>] [-r] [-u <string>] [--json] [--loglevel <string>]
 
 open an org in your browser
@@ -20,4 +23,4 @@ Examples:
   $ sfdx force:org:open -u me@my.org
   $ sfdx force:org:open -u MyTestOrg1
   $ sfdx force:org:open -r -p one/one.app
-
+```

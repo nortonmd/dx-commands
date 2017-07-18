@@ -1,3 +1,6 @@
+# sfdx force:org:create
+
+```
 Usage: sfdx force:org:create name=value... [-f <filepath>] [-n] [-i <string>] [-s] [-a <string>] [-w <minutes>] [-v <string>] [--json] [--loglevel <string>]
 
 create a scratch org
@@ -18,4 +21,4 @@ Examples:
    $ sfdx force:org:create -f config/enterprise-scratch-def.json -a TestOrg1
    $ sfdx force:org:create -a MyDevOrg -s -v me@myhub.org edition=Developer
    $ sfdx force:org:create -f config/enterprise-scratch-def.json -a OrgWithOverrides username=testuser1@mycompany.org
-
+```

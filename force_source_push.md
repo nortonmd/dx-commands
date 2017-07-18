@@ -1,3 +1,6 @@
+# sfdx force:source:push
+
+```
 Usage: sfdx force:source:push [-w <minutes>] [-g] [-f] [-u <string>] [--json] [--loglevel <string>]
 
 push source to an org from the project
@@ -10,4 +13,4 @@ push source to an org from the project
  --loglevel LOGLEVEL                 # logging level for this command invocation (error*,trace,debug,info,warn,fatal)
 
 If the command detects a conflict, it displays the conflicts but does not complete the process. After reviewing the conflict, rerun the command with the --forceoverwrite parameter.
-
+```

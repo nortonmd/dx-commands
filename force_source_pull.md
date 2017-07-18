@@ -1,3 +1,6 @@
+# sfdx force:source:pull
+
+```
 Usage: sfdx force:source:pull [-w <minutes>] [-f] [-u <string>] [--json] [--loglevel <string>]
 
 pull source from the scratch org to the project
@@ -9,4 +12,4 @@ pull source from the scratch org to the project
  --loglevel LOGLEVEL                 # logging level for this command invocation (error*,trace,debug,info,warn,fatal)
 
 If the command detects a conflict, it displays the conflicts but does not complete the process. After reviewing the conflict, rerun the command with the --forceoverwrite parameter.
-
+```

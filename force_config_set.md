@@ -1,3 +1,6 @@
+# sfdx force:config:set
+
+```
 Usage: sfdx force:config:set name=value... [-g] [--json] [--loglevel <string>]
 
 set config vars for sfdx
@@ -11,4 +14,4 @@ Sets the configuration variables that the Salesforce CLI uses for various comman
 Examples:
    $ sfdx force:config:set defaultusername=me@my.org defaultdevhubusername=me@myhub.org
    $ sfdx force:config:set defaultdevhubusername=me@myhub.org -g
-
+```

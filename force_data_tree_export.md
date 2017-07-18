@@ -1,3 +1,6 @@
+# sfdx force:data:tree:export
+
+```
 Usage: sfdx force:data:tree:export -q <string> [-p] [-x <string>] [-d <directory>] [-u <string>] [--json] [--loglevel <string>]
 
 export data from an org into sobject tree format for force:data:tree:import consumption
@@ -15,4 +18,5 @@ Generates JSON files for use with the force:data:tree:import command.
 Examples:
    $ sfdx force:data:tree:export -q "SELECT Id, Name, (SELECT Name, Address__c FROM Properties__r) FROM Broker__c"
    $ sfdx force:data:tree:export -q <path to file containing soql query> -x export-demo -d /tmp/sfdx-out -p
+```
 

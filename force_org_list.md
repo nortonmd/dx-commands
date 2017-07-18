@@ -1,3 +1,6 @@
+# sfdx force:org:list
+
+```
 Usage: sfdx force:org:list [--all] [--clean] [-p] [--json] [--loglevel <string>]
 
 list all active orgs you’ve created or authenticated to
@@ -12,4 +15,4 @@ Examples:
    $ sfdx force:org:list
    $ sfdx force:org:list --verbose --json
    $ sfdx force:org:list --verbose --json > tmp/MyOrgList.json
-
+```
