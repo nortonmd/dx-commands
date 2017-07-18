@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-### List All Commands
+### [List All Commands](force_doc_commands_display.md)
 ```
 sfdx force:doc:commands:display
 ```
@@ -42,7 +42,7 @@ sfdx force:project:create -n MyApp
 sfdx force:org:create -s -f config/project-scratch-def.json
 ```
 
-### [Push](force_org_push.md)/[Pull](force_org_pull.md) Source
+### [Push](force_source_push.md)/[Pull](force_source_pull.md) Source
 ```
 sfdx force:source:push
 sfdx force:source:pull
@@ -53,37 +53,37 @@ sfdx force:source:pull
 sfdx force:data:tree:export -q "select ..." -d ./data
 ```
 
-### Data Import
+### [Data Import](force_data_tree_import.md)
 ```
 sfdx force:data:tree:import --sobjecttreefiles data/MyObject.json
 ```
 
-### Create an Apex Class
+### [Create an Apex Class](force_apex_class_create.md)
 ```
 sfdx force:apex:class:create -n MyClassName -d force-app/main/default/classes
 ```
 
-### Metadata API Retrieve
+### [Metadata API Retrieve](force_mdapi_retrieve.md)
 ```
 sfdx force:mdapi:retrieve -s -r ./mddir -p PkgName -u OrgAlias -w 10
 ```
 
-### Metadata Convert to DX
+### [Metadata Convert to DX](force_mdapi_convert.md)
 ```
 sfdx force:mdapi:convert -r mddir/
 ```
 
-### DX Convert to Metadata
+### [DX Convert to Metadata](force_source_convert.md)
 ```
 sfdx force:source:convert -d mddir/
 ```
 
-### Metadata Deploy
+### [Metadata Deploy](force_mdapi_deploy.md)
 ```
 sfdx force:mdapi:deploy -d mddir/ -u OrgAlias -w 100
 ```
 
-### Open an Org by Alias
+### [Open an Org by Alias](force_org_open.md)
 ```
 sfdx force:org:open -u OrgAlias
 ```
