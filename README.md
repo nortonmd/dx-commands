@@ -88,3 +88,8 @@ sfdx force:mdapi:deploy -d mddir/ -u OrgAlias -w 100
 sfdx force:org:open -u OrgAlias
 ```
 
+### [Execute Anonymous Apex](force_apex_execute.md)
+```
+sfdx force:apex:execute -f Script.apex
+```
+
