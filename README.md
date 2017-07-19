@@ -95,3 +95,7 @@ sfdx force:org:open -u OrgAlias
 sfdx force:apex:execute -f Script.apex
 ```
 
+### [Describe SObject Schema](force_schema_sobject_describe.md)
+```
+sfdx force:schema:sobject:describe -s Account
+```
