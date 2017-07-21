@@ -100,6 +100,11 @@ sfdx force:org:open -u OrgAlias
 sfdx force:apex:execute -f Script.apex
 ```
 
+### [Execute Test Classes](force_apex_test_run.md)
+```
+sfdx force:apex:test:run -r human
+```
+
 ### [Describe SObject Schema](force_schema_sobject_describe.md)
 ```
 sfdx force:schema:sobject:describe -s Account
