@@ -41,7 +41,12 @@ sfdx force:project:create -n MyApp
 
 ### [Create a Scratch Org](force_org_create.md)
 ```
-sfdx force:org:create -s -f config/project-scratch-def.json
+sfdx force:org:create -s -f config/project-scratch-def.json -a ScratchOrgAlias
+```
+
+### [Set a password for your Scratch Org](force_user_password_generate.md)
+```
+sfdx force:user:password:generate -u ScratchOrgAlias
 ```
 
 ### [Push](force_source_push.md)/[Pull](force_source_pull.md) Source
