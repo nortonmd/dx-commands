@@ -70,9 +70,9 @@ sfdx force:data:tree:export -q "select ..." -d ./data
 sfdx force:data:tree:import --sobjecttreefiles data/MyObject.json
 ```
 
-### [Query with SOQL](docs/force_data_query_soql.md)
+### [Query with SOQL](docs/force_data_soql_query.md)
 ```
-sfdx force:data:query:soql -u OrgAlias -q "select Id, Name from Account limit 10"
+sfdx force:data:soql:query -u OrgAlias -q "select Id, Name from Account limit 10"
 ```
 
 ### [Create an Apex Class](docs/force_apex_class_create.md)
