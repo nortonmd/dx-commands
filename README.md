@@ -9,9 +9,9 @@
 sfdx force:doc:commands:display
 ```
 
-### [Set DevHub Org](docs/force_config_set.md)
+### [Set DevHub Org](docs/force_config_set.md) * Not sure about the order of this one
 ```
-sfdx force:config:set defaultusername=mdn@dx.com
+sfdx force:config:set defaultusername=phxsfdevs@dx.com
 ```
 
 ### [Login to DevHub Org](docs/force_auth_web_login.md)
@@ -24,6 +24,11 @@ sfdx force:auth:web:login -d -a DevHub
 sfdx force:org:open -u DevHub
 ```
 
+### [Create a Project](docs/force_project_create.md)
+```
+sfdx force:project:create -n MyApp
+```
+
 ### [Login to Sandbox](docs/force_auth_web_login.md)
 ```
 sfdx force:auth:web:login -a SandboxAlias -r https://test.salesforce.com
@@ -32,11 +37,6 @@ sfdx force:auth:web:login -a SandboxAlias -r https://test.salesforce.com
 ### [List Orgs](docs/force_org_list.md)
 ```
 sfdx force:org:list
-```
-
-### [Create a Project](docs/force_project_create.md)
-```
-sfdx force:project:create -n MyApp
 ```
 
 ### [Create a Scratch Org](docs/force_org_create.md)

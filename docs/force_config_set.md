@@ -1,4 +1,5 @@
 # sfdx force:config:set
+Not sure about the order of this one.  It appears that by authenticating against your DevHub org, this is taken care of.
 
 ```
 Usage: sfdx force:config:set name=value... [-g] [--json] [--loglevel <string>]
