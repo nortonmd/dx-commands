@@ -9,7 +9,7 @@
 sfdx force:doc:commands:display
 ```
 
-### [Set DevHub Org](docs/force_config_set.md) * Not sure about the order of this one
+### [Set DevHub Org](docs/force_config_set.md) 
 ```
 sfdx force:config:set defaultusername=phxsfdevs@dx.com
 ```
