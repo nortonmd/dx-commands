@@ -119,3 +119,16 @@ sfdx force:apex:test:run -r human
 ```
 sfdx force:schema:sobject:describe -s Account
 ```
+
+### [Package2 Create](docs/force_package2_create.md)
+```
+sfdx force:package2:create -- help me out
+
+### [Package2 Version Create](docs/force_package2_version_create.md)
+```
+sfdx force:package2:version:create -- help me out
+
+### [Package2 Create](docs/force_package_install.md)
+```
+sfdx force:package:install -- help me out
+```
