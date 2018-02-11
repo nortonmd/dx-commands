@@ -122,13 +122,15 @@ sfdx force:schema:sobject:describe -s Account
 
 ### [Package2 Create](docs/force_package2_create.md)
 ```
-sfdx force:package2:create -- help me out
+sfdx force:package2:create -n apr -o Unlocked
+```
 
 ### [Package2 Version Create](docs/force_package2_version_create.md)
 ```
-sfdx force:package2:version:create -- help me out
+sfdx force:package2:version:create --directory force-app --wait 10
+```
 
 ### [Package2 Create](docs/force_package_install.md)
 ```
-sfdx force:package:install -- help me out
+sfdx force:package:install --id 04t1N00000297JLQAY --wait 5
 ```
