@@ -1,5 +1,6 @@
 Usage: sfdx force:package2:create -n <string> [-o <string>] [-d <string>] [-e] [-v <string>] [--json] [--loglevel <string>] 
 
+```
 create a second-generation package
 
 Flags:
@@ -28,4 +29,4 @@ Examples:
    $ sfdx force:package2:create -n PackageName -d 'My New Package' -o Locked
 
 Run 'sfdx force:package2:list' to list all second-generation packages in the Dev Hub org.
-
+```

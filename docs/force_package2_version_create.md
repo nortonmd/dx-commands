@@ -1,5 +1,6 @@
 Usage: sfdx force:package2:version:create [-i <id>] [-d <directory>] [-b <string>] [-t <string>] [-k <string>] [-w <minutes>] [-v <string>] [--json] [--loglevel <string>] 
 
+```
 create a second-generation package version
 
 Flags:
@@ -33,4 +34,4 @@ To list package version creation requests in the org, run "sfdx force:package2:v
 Examples:
    $ sfdx force:package2:version:create -d common
    $ sfdx force:package2:version:create -i 0Ho... -d common
-
+```

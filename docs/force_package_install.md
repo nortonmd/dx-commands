@@ -1,5 +1,6 @@
 Usage: sfdx force:package:install -i <id> [-w <minutes>] [-k <string>] [-p <minutes>] [-u <string>] [--json] [--loglevel <string>] 
 
+```
 install a package in the target org
 
 Flags:
@@ -24,4 +25,4 @@ Supply the ID of the package version you want to install. Installs to the defaul
 Examples:
    $ sfdx force:package:install -i 04t6A0000004eytQAA
    $ sfdx force:package:install -i 04t6A0000004eytQAA -u me@my.org
-
+```
