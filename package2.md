@@ -1,5 +1,8 @@
 # Usage: sfdx force:package2:COMMAND [command-specific-options]
 
+### Package 2 Commands
+#### sfdx force:package2 --help
+
 ```
 develop second-generation packages
 
@@ -17,3 +20,18 @@ sfdx force:package2 commands: (get help with sfdx help force:package2:COMMAND)
                                      org
  force:package2:version:update       update a second-generation package version
 ```
+
+Some sample output from **package2** commands
+
+```sfdx force:package2:list```
+
+![something](images/force_package2_list.png)
+
+```sfdx force:package2:version:list```
+
+![something](images/force_package2_version_list.png)
+
+```cat sfdx-project.json```
+
+![something](images/cat_sfdx-project_json.png)
+

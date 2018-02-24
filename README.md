@@ -9,11 +9,6 @@
 sfdx force:doc:commands:display
 ```
 
-### [Set DevHub Org](docs/force_config_set.md) 
-```
-sfdx force:config:set defaultusername=phxsfdevs@dx.com
-```
-
 ### [Login to DevHub Org](docs/force_auth_web_login.md)
 ```
 sfdx force:auth:web:login -d -a DevHub
@@ -31,7 +26,7 @@ sfdx force:project:create -n MyApp
 
 ### [Login to Sandbox](docs/force_auth_web_login.md)
 ```
-sfdx force:auth:web:login -a SandboxAlias -r https://test.salesforce.com
+sfdx force:auth:web:login -r https://test.salesforce.com -a SandboxAlias 
 ```
 
 ### [List Orgs](docs/force_org_list.md)
@@ -47,6 +42,11 @@ sfdx force:org:create -s -f config/project-scratch-def.json -a ScratchOrgAlias
 ### [Set a password for your Scratch Org](docs/force_user_password_generate.md)
 ```
 sfdx force:user:password:generate -u ScratchOrgAlias
+```
+
+## [Show User info in a Scratch Org](docs/force_user
+```
+sfdx force:user:display -u ScratchOrgAlias
 ```
 
 ### [Push](docs/force_source_push.md)/[Pull](docs/force_source_pull.md) Source
