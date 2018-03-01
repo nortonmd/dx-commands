@@ -44,9 +44,9 @@ sfdx force:org:create -s -f config/project-scratch-def.json -a ScratchOrgAlias
 sfdx force:user:password:generate -u ScratchOrgAlias
 ```
 
-## [Show User info in a Scratch Org](docs/force_user
+## [Display User info in a Scratch Org](docs/force_org_display.md)
 ```
-sfdx force:user:display -u ScratchOrgAlias
+sfdx force:org:display -u ScratchOrgAlias
 ```
 
 ### [Push](docs/force_source_push.md)/[Pull](docs/force_source_pull.md) Source
