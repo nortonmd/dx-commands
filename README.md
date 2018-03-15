@@ -39,6 +39,11 @@ sfdx force:org:list
 sfdx force:org:create -s -f config/project-scratch-def.json -a ScratchOrgAlias
 ```
 
+### [Delete a Scratch Org](docs/force_org_delete.md)
+```
+sfdx force:org:delete -u ScratchOrgAlias
+```
+
 ### [Set a password for your Scratch Org](docs/force_user_password_generate.md)
 ```
 sfdx force:user:password:generate -u ScratchOrgAlias
