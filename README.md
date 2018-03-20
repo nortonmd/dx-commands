@@ -67,12 +67,13 @@ sfdx force:user:permset:assign -n PermSetName -u ScratchOrgAlias
 
 ### [Data Export](docs/force_data_tree_export.md)
 ```
-sfdx force:data:tree:export -q "select ..." -d ./data
+sfdx force:data:tree:export -q soql/query.soql -d ./data -u OrgAlias
+sfdx force:data:tree:export -q "select Name from Account limit 1" -d ./data -u OrgAlias
 ```
 
 ### [Data Import](docs/force_data_tree_import.md)
 ```
-sfdx force:data:tree:import --sobjecttreefiles data/MyObject.json
+sfdx force:data:tree:import -f data/MyObject.json -u OrgAlias
 ```
 
 ### [Query with SOQL](docs/force_data_soql_query.md)
