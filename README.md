@@ -138,5 +138,5 @@ sfdx force:package2:version:create --directory force-app --wait 10
 
 ### [Package2 Install](docs/force_package_install.md)
 ```
-sfdx force:package:install --id 04t1N00000297JLQAY --wait 5
+sfdx force:package:install --id 04t1N00000297JLQAY --wait 5 -u orgAlias
 ```
