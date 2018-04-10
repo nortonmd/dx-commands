@@ -141,7 +141,12 @@ sfdx force:package2:version:create --directory force-app --wait 10
 sfdx force:package:install --id 04t1N00000297JLQAY --wait 5 -u orgAlias
 ```
 
-### [Org Shape Create](docs/force_org_shape_create.md)
+### [Org Shape Create *Beta](docs/force_org_shape_create.md)
 ```
 sfdx force:org:shape:create -u DevHub
+```
+
+### [Org Shape List](docs/force_org_shape_list.md)
+```
+sfdx force:org:shape:list
 ```
