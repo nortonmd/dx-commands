@@ -1,3 +1,6 @@
+# sfdx force:data:soql:query
+
+```
 Usage: sfdx force:data:soql:query -q <string> [-t] [-u <string>] [--json] [--loglevel <string>]
 
 execute a soql query
@@ -14,4 +17,4 @@ Examples:
    $ sfdx force:data:soql:query -q "SELECT Id, Name, Account.Name FROM Contact"
    $ sfdx force:data:soql:query -q "SELECT Id, Name FROM Account WHERE ShippingState IN ('CA', 'NY')"
    $ sfdx force:data:soql:query -q "SELECT Name FROM ApexTrigger" -t
-
+```
