@@ -131,6 +131,24 @@ sfdx force:schema:sobject:describe -s Account
 sfdx force:package2:create -n apr -o Unlocked
 ```
 
+#### Sample sfdx-project.json file for packages
+```
+{
+  "packageDirectories": [ 
+    {
+      "path": "force-app",
+      "default": true,
+      "id": "0HoB0000000CaYnKAK",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT"
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "42.0"
+}
+```
+
 ### [Package2 Version Create](docs/force_package2_version_create.md)
 ```
 sfdx force:package2:version:create --directory force-app --wait 10
