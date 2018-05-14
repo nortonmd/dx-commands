@@ -39,6 +39,20 @@ sfdx force:org:list
 sfdx force:org:create -s -f config/project-scratch-def.json -a ScratchOrgAlias
 ```
 
+Sample scratch org definition file
+
+```
+{
+	"orgName": "Your Company",
+	"edition": "Enterprise",
+	"adminEmail": "Your.Name@Your.Company.com",
+	"hasSampleData": "true",
+	"orgPreferences" : {
+		"enabled": ["S1DesktopEnabled"]
+	}
+}
+```
+
 ### [Delete a Scratch Org](docs/force_org_delete.md)
 ```
 sfdx force:org:delete -u ScratchOrgAlias
