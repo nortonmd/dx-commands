@@ -140,9 +140,9 @@ sfdx force:apex:test:run -r human
 sfdx force:schema:sobject:describe -s Account
 ```
 
-### [Package2 Create](docs/force_package2_create.md)
+### [Package2 Create](docs/force_package_create.md)
 ```
-sfdx force:package2:create -n apr -o Unlocked
+sfdx force:package:create -n apr -o Unlocked
 ```
 
 #### Sample sfdx-project.json file for packages
@@ -163,14 +163,14 @@ sfdx force:package2:create -n apr -o Unlocked
 }
 ```
 
-### [Package2 Version Create](docs/force_package2_version_create.md)
+### [Package2 Version Create](docs/force_package_version_create.md)
 ```
-sfdx force:package2:version:create --directory force-app --wait 10
+sfdx force:package:version:create --directory force-app --wait 10
 ```
 
 ### [Package2 Install](docs/force_package_install.md)
 ```
-sfdx force:package:install --id 04t1N00000297JLQAY --wait 5 -u orgAlias
+sfdx force:package:install --package 04t1N00000297JLQAY --wait 5 -u orgAlias
 ```
 
 ### [Org Shape Create *Beta](docs/force_org_shape_create.md)
