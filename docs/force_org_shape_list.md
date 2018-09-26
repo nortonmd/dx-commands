@@ -14,4 +14,5 @@ Examples:
    $ sfdx force:org:shape:list
    $ sfdx force:org:shape:list --json
    $ sfdx force:org:shape:list --json > tmp/MyOrgShapeList.json
+
 ```

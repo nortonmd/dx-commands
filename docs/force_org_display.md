@@ -13,7 +13,9 @@ Flags:
                                       (error*,trace,debug,info,warn,fatal)
  --verbose                            emit additional command output to stdout
 
-Output includes your access token, client ID, connected status, org ID, instance URL, username, and alias, if applicable. Use --verbose to include the SFDX auth URL.
+Output includes your access token, client ID, connected status, org ID, instance URL, username, and alias, if applicable. 
+
+Use --verbose to include the SFDX auth URL. Including --verbose displays the sfdxAuthUrl property only if you authenticated to the org using force:auth:web:login (not force:auth:jwt:grant).
 
 Examples:
    $ sfdx force:org:display

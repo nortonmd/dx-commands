@@ -15,4 +15,5 @@ Flags:
 Examples:
    $ sfdx force:org:shape:create -u me@my.org
    $ sfdx force:org:shape:create -u me@my.org --json --loglevel debug
+
 ```

@@ -1,16 +1,19 @@
-# sfdx force:apex:classs:create
+# sfdx force:apex:class:create
 
 ```
-Usage: sfdx force:apex:class:create -n <string> [-t <string>] [-d <string>] [-a <string>] [--json] [--loglevel <string>]
+Usage: sfdx force:apex:class:create -n <string> [-t <string>] [-d <string>] [-a <string>] [--json] [--loglevel <string>] 
 
-create an apex class
+create an Apex class
 
- -a, --apiversion APIVERSION # api version number (40.0*,39.0)
- -n, --classname CLASSNAME   # name of the generated apex class
- -d, --outputdir OUTPUTDIR   # folder for saving the created files
- -t, --template TEMPLATE     # template to use for file creation (DefaultApexClass*,ApexException,ApexUnitTest,InboundEmailService)
- --json                      # json output
- --loglevel LOGLEVEL         # logging level for this command invocation (error*,trace,debug,info,warn,fatal)
+Flags:
+ -a, --apiversion APIVERSION  API version number (43.0*,42.0)
+ -n, --classname CLASSNAME    (required) name of the generated Apex class
+ -d, --outputdir OUTPUTDIR    folder for saving the created files
+ -t, --template TEMPLATE      template to use for file creation
+                              (DefaultApexClass*,ApexException,ApexUnitTest,InboundEmailService)
+ --json                       JSON output
+ --loglevel LOGLEVEL          logging level for this command invocation
+                              (error*,trace,debug,info,warn,fatal)
 
 If not supplied, the apiversion, template, and outputdir use default values.
 The outputdir can be an absolute path or relative to the current working directory.
@@ -18,4 +21,5 @@ The outputdir can be an absolute path or relative to the current working directo
 Examples:
    $ sfdx force:apex:class:create -n MyClass
    $ sfdx force:apex:class:create -n MyClass -d classes
+
 ```

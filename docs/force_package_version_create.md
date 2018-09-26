@@ -1,7 +1,6 @@
 # sfdx force:package:version:create
 
 ```
-
 Usage: sfdx force:package:version:create [-p <string>] [-d <directory>] [-f <filepath>] [-b <string>] [-t <string>] [-k <string>] [-x] [-w <minutes>] [-a <string>] [-n <string>] [-e <string>] [-v <string>] [--json] [--loglevel <string>] 
 
 create a package version
@@ -47,9 +46,13 @@ Flags:
                                                   invocation
                                                   (error*,trace,debug,info,warn,fatal)
 
+NOTE: This command must be run from within a project.
+
 The package version is based on the package contents in the specified directory.
 
 To retrieve details about a package version create request, including status and package version ID (04t), run "sfdx force:package:version:create:report -i 08c...".
+
+We recommend specifying the --installationkey to protect the contents of your package and to prevent unauthorized installation of your package.
 
 To list package version creation requests in the org, run "sfdx force:package:version:create:list".
 

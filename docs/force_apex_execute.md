@@ -1,14 +1,17 @@
 # sfdx force:apex:execute
 
 ```
-Usage: sfdx force:apex:execute [-f <file>] [-u <string>] [--json] [--loglevel <string>]
+Usage: sfdx force:apex:execute [-f <filepath>] [-u <string>] [--json] [--loglevel <string>] 
 
-execute anonymous apex code
+execute anonymous Apex code
 
- -f, --apexcodefile APEXCODEFILE     # path to a local file containing apex code
- -u, --targetusername TARGETUSERNAME # username for the target org; overrides default target org
- --json                              # format output as json
- --loglevel LOGLEVEL                 # logging level for this command invocation (error*,trace,debug,info,warn,fatal)
+Flags:
+ -f, --apexcodefile APEXCODEFILE      path to a local file containing Apex code
+ -u, --targetusername TARGETUSERNAME  username or alias for the target org;
+                                      overrides default target org
+ --json                               format output as json
+ --loglevel LOGLEVEL                  logging level for this command invocation
+                                      (error*,trace,debug,info,warn,fatal)
 
 Executes one or more lines of Apex code, or executes the code in a local file.
 Before you enter code, run this command with no parameters to get a prompt.
@@ -21,5 +24,5 @@ Examples:
    $ sfdx force:apex:execute 
    >> Start typing Apex code. Press the Enter key after each line, 
    >> then press CTRL+D when finished.
-```
 
+```

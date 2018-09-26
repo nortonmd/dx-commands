@@ -1,6 +1,5 @@
-# sfdx force:org:create
+# sfdx force:org:delete
 
-```
 ```
 Usage: sfdx force:org:delete -u <string> [-p] [-v <string>] [--json] [--loglevel <string>] 
 
@@ -23,4 +22,5 @@ To mark the org for deletion without being prompted to confirm, specify --noprom
 Examples:
    $ sfdx force:org:delete -u me@my.org
    $ sfdx force:org:delete -u MyOrgAlias -p
+
 ```

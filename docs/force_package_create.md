@@ -1,4 +1,4 @@
-# sfdx force:apex:execute
+# sfdx force:package:create
 
 ```
 Usage: sfdx force:package:create -n <string> -t <string> -r <directory> [-d <string>] [-e] [-v <string>] [--json] [--loglevel <string>] 
@@ -24,10 +24,16 @@ Flags:
                                                   invocation
                                                   (error*,trace,debug,info,warn,fatal)
 
+NOTE: This command must be run from within a project.
+
 First, use this command to create a package. Then create a package version.
 
+If you don't have a namespace defined in your sfdx-project.json file, use --nonamespace.
+
+Your --name value must be unique within your namespace.
+
 Examples:
-   $ sfdx force:package:create -n YourPackageName -t Unlocked
+   $ sfdx force:package:create -n YourPackageName -t Unlocked -r force-app
    $ sfdx force:package:create -n YourPackageName -d "Your Package Descripton" -t Unlocked -r force-app
 
 Run 'sfdx force:package:list' to list all packages in the Dev Hub org.
